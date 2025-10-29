@@ -1,0 +1,89 @@
+body{
+    font-family: Nunito+Sans;
+    margin: 0;
+}
+#name{
+    font-family: oswald;
+    color: white;
+}
+ul{
+    display: flex;
+    gap: 20px;
+   list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(220, 8, 51);
+}
+#searchBar{
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+}
+#searchBar:focus{
+    outline: none;
+}
+.signup{
+    padding: 10px 38px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(244, 54, 92);
+    color: white;
+}
+.signup:hover{
+    background-color: rgb(244, 9, 60);
+}
+nav{
+    padding: 0px 80px;
+}
+/* nav bar end here */
+
+/* hero section start from here */
+header, h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+    padding: 0px;
+}
+.hero{
+     height: 800px;
+    background-color: rgb(252, 104, 104);
+}
+.hero-info{
+    text-align: center;
+    width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding-top: 65px;
+}
+#title{
+    font-family: oswald;
+    font-size: 65px;
+}
+.exploreBtn{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(204, 180, 240);
+    border: none;
+    color: blue;
+    border-radius: 5px;
+}
+.exploreBtn:hover{
+    background-color: rgb(144, 128, 218);
+    /* transition: ease-out 800ms; */
+    /* transform: scale(8); */
+    transform: translateY(20px);
+}
+.highlight{
+    color: rgb(150, 9, 32);
+}
+.highlight:hover{
+    /* transform: ease-in 8s; */
+}
